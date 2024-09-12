@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.image-background1{
+    background-image: url(image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.heading{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.heading2{
+    display: flex;
+}
+.heading2 ul li{
+    float: left;
+    margin: 0 20px;
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+}
+.note{
+   margin-left: 25%;
+    margin-top: 10%;
+}
+.note p{
+    color: white;
+    font-size: 100px;
+}
+.arrow{
+    margin-left: 30%;
+}
+.btn1{
+    height: 30px;
+    width: 90px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border: none;
+}
+.btn1:hover{
+    background-color: rgb(127, 202, 255);
+    color: white;
+    cursor: pointer;
+}
+.row{
+    display: flex;
+}
+.image-background2{
+    height: 500px;
+    width: 575px;
+    background-image: url(image-graphic-design.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+}
+.cmnt1{
+    width: 45%;
+    background-color: white;
+    color: rgb(25, 39, 29);
+    display: flex;
+    justify-content: center;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    margin-top: 200px;
+}
+.box2{
+    height: 250px;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 200px;
+    color: rgb(25, 39, 29);
+}
+.box2 a{
+    color: rgb(25, 39, 29);
+    text-decoration: underline 5px coral ;
+}
+.box a{
+    color: rgb(25, 39, 29) ;
+    text-decoration: underline 5px yellow;
+}
+.box a:hover{
+    text-decoration: underline 5px rgb(255, 200, 0);
+}
+.box2 a:hover{
+    text-decoration: 5px underline orangered;
+}
+
+.cmnt2{
+    width: 50%;
+
+}
+.photo{
+    width: 45%;
+}
+.photo2 img{
+    width: 570px;
+    margin-top: -5px;
+}
+.photo img{
+    width: 696px;
+}
+.image-background3{
+    background-image: url(image-photography.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 700px;
+    height: 500px;
+}
+.row3{
+    display: flex;
+    margin-top: -5px;
+}
+.cherry{
+    height: 200px;
+    width: 250px;
+    margin-top: 55%;
+    margin-left: 160px;
+    color: rgb(50, 71, 56);
+}
+.tang{
+    height: 200px;
+    width: 250px;
+    margin-top: 45%;
+    margin-left: 250px;
+    color: rgb(13, 119, 155) ;
+}
+.review{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.person{
+    width: 200px;
+    height: 200px;
+}
+.person img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.person pre{
+    color: grey;
+    margin-left: -220px;
+    
+}
+.person p{
+    color: grey;
+    margin-left: -35px;
+    font-size: 15px;
+}
+.heading2 p{
+    margin-left: 35%;
+    font-size: 40px;
+    color: grey;
+    font: italic;
+}
+.gallery{
+    display: flex;
+    margin-top: 100px;
+}
+.gallery img{
+    width: 317px;
+}
+.credits{
+    background-color: rgb(112, 183, 132);
+    align-items: center;
+    color: rgb(50, 71, 56);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.box3 ul li{
+    float: right;
+    list-style-type: none;
+    margin: 0 10px ;
+}
+.box3 ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+.box3 h2{
+    font-size: 30px;
+    margin-left: 25px;
+}
+.box3 img{ 
+    margin: 40px 0 0 20px;
+}
